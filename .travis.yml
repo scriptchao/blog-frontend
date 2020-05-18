@@ -5,9 +5,9 @@ cache:
   - node_modules
 addons:
   ssh_known_hosts: 121.43.224.240
-# install:
-# # - npm install
-#   - echo install
+install:
+# - npm install
+  - echo install
 # script:
 # # - npm run build
 #   - echo script
