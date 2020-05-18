@@ -1,19 +1,19 @@
 language: node_js
 node_js: node
-cache:
-  directories:
-  - node_modules
-addons:
-  ssh_known_hosts: 121.43.224.240
-install:
-# - npm install
-  - echo install
-script:
-# - npm run build
-  - echo script
-before_deploy: 
-  - openssl aes-256-cbc -K $encrypted_d28f6dc8aef7_key -iv $encrypted_d28f6dc8aef7_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
-deploy:
-  - ssh root@121.43.224.240 "ls"
+# cache:
+#   directories:
+#   - node_modules
+# addons:
+#   ssh_known_hosts: 121.43.224.240
+# install:
+# # - npm install
+#   - echo install
+# script:
+# # - npm run build
+#   - echo script
+# before_deploy: 
+#   - openssl aes-256-cbc -K $encrypted_d28f6dc8aef7_key -iv $encrypted_d28f6dc8aef7_iv
+#   -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+# deploy:
+#   - ssh root@121.43.224.240 "ls"
 
