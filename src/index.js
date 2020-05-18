@@ -1,3 +1,9 @@
+/*
+ * @Author: 托尼
+ * @Date: 2020-05-14 16:11:21
+ * @LastEditors: 托尼
+ * @LastEditTime: 2020-05-18 21:31:50
+ */ 
 import React from 'react';
 import ReactDom from 'react-dom';
 import { Router, Route } from 'react-router-dom';
@@ -21,3 +27,6 @@ ReactDom.render(
 // if (module.hot) {
 //     module.hot.accept()
 // }
+
+console.log(666)
+
