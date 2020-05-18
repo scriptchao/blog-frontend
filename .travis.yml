@@ -1,10 +1,10 @@
 language: node_js
 node_js: node
-# cache:
-#   directories:
-#   - node_modules
-# addons:
-#   ssh_known_hosts: 121.43.224.240
+cache:
+  directories:
+  - node_modules
+addons:
+  ssh_known_hosts: 121.43.224.240
 # install:
 # # - npm install
 #   - echo install
