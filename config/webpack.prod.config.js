@@ -67,6 +67,25 @@ module.exports = merge(baseWebpackConfig, {
             ]
           },
           {
+            test: /\.(scss|sass)$/,
+            use: [
+              { loader: MiniCssExtractPlugin.loader },
+              {
+                loader: 'css-loader',
+                options: {
+                  importLoaders: 2,
+                },
+              },
+              {
+                loader: 'postcss-loader',
+                options: {
+                  ident: 'postcss', // https://webpack.js.org/guides/migrating/#complex-options
+                },
+              },
+              'sass-loader'
+            ]
+          },
+          {
             test: /\.css$/,
             use: [
               { loader: MiniCssExtractPlugin.loader },

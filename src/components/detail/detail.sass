@@ -1,0 +1,43 @@
+@import ../../styles/theme
+
+.detail
+    .detail-title
+        display: flex
+        justify-content: space-between
+        margin-top: 10px
+        padding: 0 20px
+        background: $white
+        border: 1px solid $color232
+        line-height: 30px
+        .title
+            display: flex
+            align-items: center
+    .detail-vote
+        display: flex
+        justify-content: center
+        margin-top: 20px
+
+        div
+            font-size: 16px
+            padding: 5px 20px
+            border: 1px solid $color232
+            border-radius: 5px
+            cursor: pointer
+            background: $white
+
+            &.vote
+                border-color: $red
+                color: $red
+
+            &:hover
+                border-color: $red
+                background: $red
+                color: $white
+
+.dialog-tip
+    text-align: center
+    .btn
+        width: 100%
+        margin-bottom: 20px
+    h2
+        margin-bottom: 30px

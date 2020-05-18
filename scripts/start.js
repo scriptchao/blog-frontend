@@ -1,3 +1,9 @@
+/*
+ * @Author: 托尼
+ * @Date: 2020-05-14 16:02:30
+ * @LastEditors: 托尼
+ * @LastEditTime: 2020-05-14 17:32:59
+ */ 
 /**
  * Created by tony on 2019-10-24
  */
@@ -15,7 +21,7 @@ const webpackDevServerConfig = require('../config/devServer.config')
 
 const compiler = webpack(config)
 
-const DEFAULT_PORT = 8888
+const DEFAULT_PORT = 8080
 const HOST = '0.0.0.0'
 
 choosePort(HOST, DEFAULT_PORT).then(port => {
