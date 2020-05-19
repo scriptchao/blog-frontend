@@ -10,7 +10,7 @@ WORK_DIR="~/app/blog-frontend/"
 ssh ${REMOTE} -o StrictHostKeyChecking=no "ls"
 
 # cleanup
-ssh ${REMOTE} "rm -rf ${WORK_DIR}"
+# ssh ${REMOTE} "rm -rf ${WORK_DIR}"
 # upload
 scp -r ${UPLOAD_PATH} ${REMOTE}:${WORK_DIR}
 
