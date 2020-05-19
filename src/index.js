@@ -2,7 +2,7 @@
  * @Author: 托尼
  * @Date: 2020-05-14 16:11:21
  * @LastEditors: 托尼
- * @LastEditTime: 2020-05-18 23:31:36
+ * @LastEditTime: 2020-05-19 12:21:35
  */ 
 import React from 'react';
 import ReactDom from 'react-dom';
@@ -28,5 +28,5 @@ ReactDom.render(
 //     module.hot.accept()
 // }
 
-console.log(11)
+console.log(100)
 
