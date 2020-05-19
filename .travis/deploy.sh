@@ -9,8 +9,7 @@ WORK_DIR="~/app/blog-frontend/"
 # open 
 ssh ${REMOTE} -o StrictHostKeyChecking=no "ls"
 
-# open 
-ssh ${REMOTE} "ls"
+ls
 
 # cleanup
 # ssh ${REMOTE} "rm -rf ${WORK_DIR}"
