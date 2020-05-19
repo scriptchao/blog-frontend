@@ -1,8 +1,5 @@
 language: node_js
 node_js: node
-cache:
-  directories:
-  - node_modules
 addons:
   ssh_known_hosts: 121.43.224.240
 before_install:
