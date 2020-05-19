@@ -2,8 +2,9 @@
  # @Author: 托尼
  # @Date: 2020-05-19 11:31:52
  # @LastEditors: 托尼
- # @LastEditTime: 2020-05-19 12:23:45
+ # @LastEditTime: 2020-05-19 12:39:05
 ### 
+#!/bin/bash
 
 # path
 SERVER_IP="121.43.224.240"
