@@ -14,5 +14,6 @@ install:
 script:
 - npm run build
 after_success:
+  - chmod 700 .travis/deploy.sh
   - .travis/deploy.sh
 
