@@ -22,7 +22,7 @@
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "antd": "^3.26.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "blueimp-md5": "^2.16.0",
     "core-js": "^3.6.5",
     "dateformat": "^3.0.3",
